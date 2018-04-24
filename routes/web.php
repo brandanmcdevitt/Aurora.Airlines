@@ -27,6 +27,11 @@ Route::get('/login', function () {
     return view('welcome');
 });
 
+/*creating and testing the members only page */
+Route::get('/member', function () {
+    return view('pages.member-only');
+});
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
