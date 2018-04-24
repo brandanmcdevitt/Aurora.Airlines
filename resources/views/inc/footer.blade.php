@@ -1,12 +1,6 @@
-<?php 
 
-/*
+{{-- Creating the footer.php to allow us to include it to every page with a simple function. --}}
 
-Creating the footer.php to allow us to include it to every page with a simple function.
-
-*/
-
-?>
 <div class="footer-info">
     <div class="copyright">
         &copy; {{ date('Y') }}

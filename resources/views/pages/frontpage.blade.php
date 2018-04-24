@@ -1,30 +1,26 @@
-<?php
-
-/*
+{{--
 
 This is the frontpage of our website.
 
 The header.php and footer.php will be included in the top and bottom of this file.
 
-*/
-?>
+--}}
+
     @include('inc.header')
 
     <div class="main-bg">
 
         <img src="images/fp-bg.jpg">
-        <?php
         
-        /*
+        {{--
         
         Creating a form to hold the drop-down select boxes for the departure/arrival 
         airports, date selection and a button to submit.
         
         These drop-down boxes will be populated from a database.
         
-        */
+        --}}
         
-        ?>
             <form>
                 <select id="departures">
             <option value="select">Select</option>
@@ -58,18 +54,14 @@ The header.php and footer.php will be included in the top and bottom of this fil
         </div>
     </a>
 
-    <?php 
-
-/*
+    {{--
 
 The featured section will alllow the user to scroll through a list of latest offers.
 
 These offers will be stored and we will use php to display the offers based on if they
 are stored as an offer or not.
 
-*/
-
-?>
+--}}
 
     <div class="featured">
 
@@ -135,15 +127,11 @@ are stored as an offer or not.
 
     </div>
 
-    <?php
+    {{--
 
-/*
+    Small section with bullet points on what our service offers.
 
-Small section with bullet points on what our service offers.
-
-*/
-
-?>
+    --}}
 
         <div class="four-points-outer">
             <div class="four-points-inner">
@@ -209,12 +197,10 @@ Small section with bullet points on what our service offers.
             </div>
         </div>
 
-        <?php 
+        {{--
 
-/*
+        Here is where the footer.php file is included.
 
-Here is where the footer.php file is included.
+        --}}
 
-*/
-
-?> @include('inc.footer')
+        @include('inc.footer')

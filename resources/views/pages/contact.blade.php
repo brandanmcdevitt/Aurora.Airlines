@@ -1,4 +1,6 @@
-@include('inc.header') @include('inc.title')
+@include('inc.header') 
+
+@include('inc.title')
 
 <div class="c-bg">
     <div class="contact-container">
