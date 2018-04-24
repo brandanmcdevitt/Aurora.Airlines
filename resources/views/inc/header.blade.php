@@ -46,7 +46,7 @@ Creating the header.php to allow us to include it to every page with a simple fu
         
         ?>
                 <title>
-                    <?php echo $title; ?>
+                    {{ $title }}
                 </title>
     </head>
 
