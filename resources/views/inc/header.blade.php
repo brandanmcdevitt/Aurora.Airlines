@@ -59,6 +59,7 @@ Creating the header.php to allow us to include it to every page with a simple fu
         if the page title is equal to "index" then display a specific div.
         if not, then display another div.
         
+        test
         */
         
         ?>
