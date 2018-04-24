@@ -63,11 +63,11 @@ Creating the header.php to allow us to include it to every page with a simple fu
         
         ?>
 
-            <?php if($pageTitle == "index"){ ?>
+            @if($pageTitle == "index")
             <div class="home-nav">
-                <?php } else {?>
+                @else
                 <div class="nav">
-                    <?php } ?>
+                    @endif
 
                     <div class="logo"><a href="/"><img src="images/logo.png"></a>
                     </div>
