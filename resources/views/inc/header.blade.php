@@ -69,11 +69,11 @@ Creating the header.php to allow us to include it to every page with a simple fu
                 <div class="nav">
                     <?php } ?>
 
-                    <div class="logo"><a href="index.php"><img src="images/logo.png"></a>
+                    <div class="logo"><a href="/"><img src="images/logo.png"></a>
                     </div>
 
                     <div class="nav-links">
-                        <a href="home">Home</a>
+                        <a href="/">Home</a>
                         <a href="destinations">Destinations</a>
                         <a href="contact">Contact Us</a>
                         <a href="login">Log In</a>
