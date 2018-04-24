@@ -6,7 +6,7 @@ This file will be included in each page except for the index.php.
 It's use is to display the current page name as the header title for these pages.
 
 */
-
+$pageTitle = basename($_SERVER['PHP_SELF'],'.php');
 ?>
 
     <div class="page-title">

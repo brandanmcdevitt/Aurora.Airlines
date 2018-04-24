@@ -9,8 +9,7 @@ Creating the footer.php to allow us to include it to every page with a simple fu
 ?>
 <div class="footer-info">
     <div class="copyright">
-        &copy;
-        <?php //echo $title; echo date(' Y'); ?>
+        &copy; {{ date('Y') }}
     </div>
 
     <div class="atol"><img src="/images/atol.png"></div>
