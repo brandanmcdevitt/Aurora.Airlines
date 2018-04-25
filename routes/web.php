@@ -27,6 +27,10 @@ Route::get('/login', function () {
     return view('welcome');
 });
 
+Route::get('/FAQ', function () {
+    return view('pages.faq');
+});
+
 /*creating and testing the members only page */
 Route::get('/member', function () {
     return view('pages.member-only');

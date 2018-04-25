@@ -480,6 +480,22 @@ div#sidebar-main {
     color: #333;
 }
 
+/***************
+Other pages
+***************/
+
+h2.pageTitle {
+    margin: 40px auto;
+    font-family: "Montserrat", sans-serif;
+    text-transform:  UPPERCASE;
+    width:  70%;
+}
+
+.p-text {
+    margin: 0 auto;
+    width: 70%;
+}
+
 /******************
 Footer
 *****************/

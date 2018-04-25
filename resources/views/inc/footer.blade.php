@@ -1,5 +1,5 @@
 
-{{-- Creating the footer.php to allow us to include it to every page with a simple function. --}}
+{{-- Creating the footer.blade.php to allow us to include it to every page with a simple function. --}}
 
 <div class="footer-info">
     <div class="copyright">
@@ -12,7 +12,7 @@
         <h3>Quick Links</h3>
         <div class="ql-inner">
             <a href="#">Route Map</a>
-            <a href="#">FAQs</a>
+            <a href="FAQ">FAQs</a>
             <a href="#">ATOL Information</a>
         </div>
         <div class="ql-inner">
@@ -23,7 +23,7 @@
         <div class="ql-inner">
             <a href="#">Baggage</a>
             <a href="#">Transfers</a>
-            <a href="#">Contact Us</a>
+            <a href="contact">Contact Us</a>
         </div>
 
     </div>

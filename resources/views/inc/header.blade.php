@@ -1,6 +1,6 @@
 {{--
     
-Creating the header.php to allow us to include it to every page with a simple function.
+Creating the header.blade.php to allow us to include it to every page with a simple function.
 
 --}}
 

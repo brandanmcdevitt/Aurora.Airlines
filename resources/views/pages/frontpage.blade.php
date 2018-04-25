@@ -2,7 +2,7 @@
 
 This is the frontpage of our website.
 
-The header.php and footer.php will be included in the top and bottom of this file.
+The header.blade.php and footer.blade.php will be included in the top and bottom of this file.
 
 --}}
 
@@ -199,7 +199,7 @@ are stored as an offer or not.
 
         {{--
 
-        Here is where the footer.php file is included.
+        Here is where the footer.blade.php file is included.
 
         --}}
 
