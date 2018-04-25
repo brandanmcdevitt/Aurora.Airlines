@@ -13,7 +13,7 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
         <img src="images/fp-bg.jpg">
         
         {{--
-        
+        test
         Creating a form to hold the drop-down select boxes for the departure/arrival 
         airports, date selection and a button to submit.
         
