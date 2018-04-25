@@ -1,3 +1,4 @@
+{{--including the header.blade.php file --}}
 @include('inc.header')
 
 @include('inc.title')
