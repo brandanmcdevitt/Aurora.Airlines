@@ -28,7 +28,35 @@ Route::get('/login', function () {
 });
 
 Route::get('/FAQ', function () {
-    return view('pages.faq');
+    return view('pages.other');
+});
+
+Route::get('/route-map', function () {
+    return view('pages.other');
+});
+
+Route::get('/ATOL', function () {
+    return view('pages.other');
+});
+
+Route::get('/privacy-policy', function () {
+    return view('pages.other');
+});
+
+Route::get('/terms-conditions', function () {
+    return view('pages.other');
+});
+
+Route::get('/cookies', function () {
+    return view('pages.other');
+});
+
+Route::get('/baggage', function () {
+    return view('pages.other');
+});
+
+Route::get('/transfers', function () {
+    return view('pages.other');
 });
 
 /*creating and testing the members only page */
