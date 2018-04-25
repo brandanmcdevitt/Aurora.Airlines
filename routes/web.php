@@ -59,6 +59,18 @@ Route::get('/transfers', function () {
     return view('pages.other');
 });
 
+Route::get('/zurich', function () {
+    return view('pages.featured');
+});
+
+Route::get('/albuferia', function () {
+    return view('pages.featured');
+});
+
+Route::get('/reykjavik', function () {
+    return view('pages.featured');
+});
+
 /*creating and testing the members only page */
 Route::get('/member', function () {
     return view('pages.member-only');

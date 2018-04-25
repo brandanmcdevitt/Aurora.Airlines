@@ -69,7 +69,7 @@ are stored as an offer or not.
 
         <div class="owl-carousel f-row">
 
-            <div class="f-item-outer">
+            <a href="zurich"><div class="f-item-outer">
                 <div class="f-thumb">
                     <img src="images/city-break.jpg">
                 </div>
@@ -85,9 +85,9 @@ are stored as an offer or not.
                     </div>
                     <img src="images/tripadvisor.png" id="rating">
                 </div>
-            </div>
+                </div></a>
 
-            <div class="f-item-outer">
+            <a href="albuferia"><div class="f-item-outer">
                 <div class="f-thumb">
                     <img src="images/sunny-beach.jpg">
                 </div>
@@ -103,9 +103,9 @@ are stored as an offer or not.
                     </div>
                     <img src="images/tripadvisor.png" id="rating">
                 </div>
-            </div>
+                </div></a>
 
-            <div class="f-item-outer">
+            <a href="reykjavik"><div class="f-item-outer">
                 <div class="f-thumb">
                     <img src="images/northern-lights.jpg">
                 </div>
@@ -121,7 +121,7 @@ are stored as an offer or not.
                     </div>
                     <img src="images/tripadvisor.png" id="rating">
                 </div>
-            </div>
+                </div></a>
 
         </div>
 
