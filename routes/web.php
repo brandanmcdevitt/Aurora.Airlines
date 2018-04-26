@@ -71,6 +71,10 @@ Route::get('/reykjavik', function () {
     return view('pages.featured');
 });
 
+Route::get('/deals', function () {
+    return view('pages.other');
+});
+
 /*creating and testing the members only page */
 Route::get('/member', function () {
     return view('pages.member-only');

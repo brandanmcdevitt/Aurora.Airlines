@@ -33,9 +33,7 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
             <option value="Arrival Airport">Arrival Airport</option>
             </select>
 
-                <select id="dates">
-            <option value="select">Select</option>
-            <option value="dates">Dates</option>
+                <input type="date" id="dates">
             </select>
 
                 <button id="search">Find My Holiday</button>
@@ -51,7 +49,7 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
             </div>
     </div>
 
-    <a href="#" id="bnr">
+    <a href="deals" id="bnr">
         <div class="offer-banner">
             Click Here To Check Out Great Last Minute Offers
         </div>
