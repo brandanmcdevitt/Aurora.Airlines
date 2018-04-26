@@ -686,3 +686,25 @@ Responsive
         display: block;
     }
 }
+
+@media (min-width:1080px) {
+    .hero-container {
+        top: 90px;
+        left: -50px;
+    }
+
+    .logo {
+        width: 57%;
+    }
+}
+
+@media (min-width:1400px) {
+    .hero-container {
+        top: 140px;
+        left: 0;
+    }
+
+    .logo {
+        width: 60%;
+    }
+}
