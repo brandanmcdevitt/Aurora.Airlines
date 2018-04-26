@@ -259,15 +259,20 @@ Homepage
     margin: 10px 0;
 }
 
+.hero-container {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
 .main-bg form {
-    width: 25%;
+    width: 30%;
     border: 1px solid #333;
     padding: 20px;
     background: #cccccc6e;
-    position: absolute;
-    bottom: 400px;
     z-index: 2;
-    left: 110px;
 }
 
 button#search {
@@ -283,14 +288,17 @@ button#search {
 }
 
 .main-bg-words {
-    position: absolute;
-    bottom: 410px;
-    left: 860px;
     color: #fff;
     font-family: "Montserrat";
     text-transform: uppercase;
     text-align: center;
     font-size: 24px;
+    padding: 20px;
+}
+
+.hero-container .half-content {
+    position: relative;
+    left: 170px;
 }
 
 /******************
