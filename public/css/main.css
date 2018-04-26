@@ -24,16 +24,18 @@ Navigation
 **************/
 
 .logo img {
-    max-width: 30%;
+    max-width: 100%;
 }
 
 .logo {
     float: left;
-    width: 60%;
+    width: 100%;
+    text-align: center;
 }
 
 .nav-links {
     padding-top: 20px;
+    display: none;
 }
 
 .nav-links a {
@@ -88,10 +90,9 @@ Homepage
 
 .f-item-outer {
     border: 1px solid #333;
-    width: 27%;
     font-family: "Montserrat";
     display: inline-block;
-    margin: 0 25px;
+    margin: 25px;
 }
 
 .f-row {
@@ -225,7 +226,7 @@ Homepage
 }
 
 .si-item {
-    display: inline;
+    display: block;
 }
 
 .social h1 {
@@ -235,7 +236,7 @@ Homepage
 }
 
 .si-item img {
-    width: 6%;
+    width: 20%;
 }
 
 #departures,
@@ -253,21 +254,32 @@ Homepage
 }
 
 #dates {
-    width: 50%;
+    width: 33%;
     height: 40px;
     font-size: 15px;
-    margin: 10px 0;
+    font-family: "Arial", sans-serif;
+    background: #f5f5f5;
+    border: 1px solid #ccc;
+    border-color: rgb(166, 166, 166);
+    padding: 0px 8px 1px;
+    border-radius: 5px;
+}
+
+.hero-container {
+    position: absolute;
+    top: 140px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    display: none;
 }
 
 .main-bg form {
-    width: 25%;
+    width: 30%;
     border: 1px solid #333;
     padding: 20px;
     background: #cccccc6e;
-    position: absolute;
-    bottom: 400px;
     z-index: 2;
-    left: 110px;
 }
 
 button#search {
@@ -283,14 +295,17 @@ button#search {
 }
 
 .main-bg-words {
-    position: absolute;
-    bottom: 410px;
-    left: 860px;
     color: #fff;
     font-family: "Montserrat";
     text-transform: uppercase;
     text-align: center;
     font-size: 24px;
+    padding: 20px;
+}
+
+.hero-container .half-content {
+    position: relative;
+    left: 170px;
 }
 
 /******************
@@ -487,8 +502,8 @@ Other pages
 h2.pageTitle {
     margin: 40px auto;
     font-family: "Montserrat", sans-serif;
-    text-transform:  UPPERCASE;
-    width:  70%;
+    text-transform: UPPERCASE;
+    width: 70%;
 }
 
 .p-text {
@@ -508,11 +523,12 @@ h2.pageTitle {
     clear: both;
 }
 
-.fea-img, .fea-text {
-    font-family: "Raleway",sans-serif;
+.fea-img,
+.fea-text {
+    font-family: "Raleway", sans-serif;
     font-size: 15px;
     color: #808080;
-        max-width: 40%;
+    max-width: 40%;
     height: auto;
     /* border: 1px solid #333; */
     margin: 40px;
@@ -525,7 +541,7 @@ h2.pageTitle {
 }
 
 .fea-img img {
-    width:  100%;
+    width: 100%;
     border: 1px solid #333;
     padding: 2px;
 }
@@ -535,7 +551,7 @@ Footer
 *****************/
 
 .footer-info {
-    width: 100%;
+    max-width: 100%;
     background: #333;
     color: #fff;
     padding: 40px;
@@ -545,13 +561,16 @@ Footer
 .copyright {
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-    width: 64%;
+    width: 100%;
+    text-align: center;
     float: left;
     margin-top: 55px;
+
 }
 
 .quick-links {
     display: inline-block;
+    text-align: center;
 }
 
 .ql-inner a {
@@ -563,6 +582,7 @@ Footer
 .ql-inner {
     display: inline-grid;
     margin: 0 15px 0 0;
+    width: 100%;
 }
 
 .quick-links h3 {
@@ -573,7 +593,7 @@ Footer
 
 .atol {
     width: 33%;
-    display: inline;
+    display: none;
     position: relative;
 }
 
@@ -585,4 +605,106 @@ Footer
 
 .ql-inner a:hover {
     color: #039183;
+}
+
+/********
+Responsive
+********/
+
+@media (min-width:480px) {
+
+    .f-item-outer {
+        width: 37%;
+    }
+    .si-item {
+        display: inline;
+    }
+
+    .si-item img {
+        width: 6%;
+    }
+
+}
+
+@media (min-width:768px) {
+    .nav-links {
+        display: block;
+    }
+    .logo img {
+        max-width: 50%;
+    }
+
+    .logo {
+        float: left;
+        width: 44%;
+        text-align: left;
+    }
+    .hero-container {
+        display: block;
+    }
+    .atol {
+        display: inline;
+    }
+
+    .copyright {
+        width: 64%;
+        text-align: left;
+    }
+
+    .quick-links {
+        text-align: left;
+    }
+
+    .ql-inner {
+        width: auto;
+    }
+
+    .footer-info {
+        max-width: none;
+        width: 100%;
+    }
+
+    .main-bg-words {
+        display: none;
+    }
+}
+
+@media (min-width:960px) {
+    .logo {
+        width: 60%;
+    }
+
+    .logo img {
+        width: 35%;
+    }
+
+    .f-item-outer {
+        width: 27%;
+        margin: 0 25px;
+    }
+    .main-bg-words {
+        display: block;
+    }
+}
+
+@media (min-width:1080px) {
+    .hero-container {
+        top: 90px;
+        left: -50px;
+    }
+
+    .logo {
+        width: 57%;
+    }
+}
+
+@media (min-width:1400px) {
+    .hero-container {
+        top: 140px;
+        left: 0;
+    }
+
+    .logo {
+        width: 60%;
+    }
 }

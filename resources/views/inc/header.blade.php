@@ -31,6 +31,8 @@ Creating the header.blade.php to allow us to include it to every page with a sim
             <link href="{{ url('css/font-awesome.min.css') }}" rel="stylesheet" type="text/css" />
             <script type="text/javascript" src="{{ URL::asset('js/jquery.min.js') }}"></script>
         
+        <meta name="viewport" content="width=device-width" />
+        
         {{-- printing the $title --}}
         
                 <title>

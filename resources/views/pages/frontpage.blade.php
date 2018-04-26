@@ -21,7 +21,8 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
         
         --}}
         
-            <form>
+        <div class="hero-container">
+            <form class="half-content">
                 <select id="departures">
             <option value="select">Select</option>
             <option value="departure Airport">Departure Airport</option>
@@ -32,23 +33,23 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
             <option value="Arrival Airport">Arrival Airport</option>
             </select>
 
-                <select id="dates">
-            <option value="select">Select</option>
-            <option value="dates">Dates</option>
+                <input type="date" id="dates">
             </select>
 
                 <button id="search">Find My Holiday</button>
             </form>
 
-            <div class="main-bg-words">
+            <div class="main-bg-words half-content">
                 <h1>Great Deals on<br />Winter Breaks</h1>
                 <h2>With Up To</h2>
                 <h1>£100 Off<br />Per Person*</h1>
 
             </div>
+            
+            </div>
     </div>
 
-    <a href="#" id="bnr">
+    <a href="deals" id="bnr">
         <div class="offer-banner">
             Click Here To Check Out Great Last Minute Offers
         </div>
