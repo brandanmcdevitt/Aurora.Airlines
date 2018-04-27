@@ -1,5 +1,5 @@
 @include('inc.header') 
-
+{{-- include --}}
 @include('inc.title')
 
 <div class="c-bg">
