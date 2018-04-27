@@ -11,16 +11,16 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
     <div class="main-bg">
 
         <img src="images/fp-bg.jpg">
-        
+        {{-- testing --}}
         {{--
-        
-        Creating a form to hold the drop-down select boxes for the departure/arrival 
+
+        Creating a form to hold the drop-down select boxes for the departure/arrival
         airports, date selection and a button to submit.
-        
+
         These drop-down boxes will be populated from a database.
-        
+
         --}}
-        
+
         <div class="hero-container">
             <form class="half-content">
                 <select id="departures">
@@ -45,7 +45,7 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
                 <h1>£100 Off<br />Per Person*</h1>
 
             </div>
-            
+
             </div>
     </div>
 
