@@ -1,4 +1,4 @@
-@include('inc.header') 
+@include('inc.header')
 {{-- include --}}
 @include('inc.title')
 
@@ -27,7 +27,22 @@
         </div>
     </div>
 
-
 </div>
 
+<div id="map">
+
+  </div>
+
+<script>
+function myMap() {
+    var mapOptions = {
+        center: new google.maps.LatLng(54.687254, -5.8871134),
+        zoom: 14,
+        mapTypeId: google.maps.MapTypeId.ROADMAP
+    }
+var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHTKPx7gAUn_EiIzxHDkCMl5H8s4AXpf4&callback=myMap"></script>
 @include('inc.footer')
