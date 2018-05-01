@@ -1,10 +1,13 @@
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
-Import logindb.sql to phpmyadmin and set .env file to connect to this database.
+# Database Connection Help
+##### Import <i>logindb.sql</i> to phpmyadmin and change the <i>.env</i> file with your phpmyadmin settings.
 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=8889 (check phpmyadmin MySQL info)
-DB_DATABASE=logindb
-DB_USERNAME=root
-DB_PASSWORD=root
+###### They should look something similar to this:
+
+DB_CONNECTION=mysql <br />
+DB_HOST=127.0.0.1 <br />
+DB_PORT=8889 <br />
+DB_DATABASE=logindb <br />
+DB_USERNAME=root <br />
+DB_PASSWORD=root <br />
