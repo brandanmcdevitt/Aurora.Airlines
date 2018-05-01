@@ -24,6 +24,6 @@ DB_PASSWORD=root
 
 ````
 $ php artisan tinker
-\>>> use App\User;
-\>>>User::where('email', 'useremail@gmail.com')->update(['type' => 'admin']);
+>>> use App\User;
+>>>User::where('email', 'useremail@gmail.com')->update(['type' => 'admin']);
 ````
