@@ -2,7 +2,11 @@
 
 #### Database Connection Help
 
-###### Import <i>logindb.sql</i> (or create a new empty database) to phpmyadmin and change the <i>.env</i> file to match the MySQL settings on phpmyadmin.
+###### Import <i>logindb.sql</i> to phpmyadmin and change the <i>.env</i> file to match the MySQL settings on phpmyadmin.
+
+#### OR 
+
+###### Create a new empty database in phpmyadmin and run 'php artisan migrate' on your project folder and set your <i>.env</i> files
 
 ###### Your settings should be something similar to this:
 
