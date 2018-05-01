@@ -43,7 +43,12 @@
                     <!-- Right Side Of Navbar -->
                     <ul class="navbar-nav ml-auto">
                         <!-- Authentication Links -->
+
+                        <li><a class="nav-link" href="/">Home</a></li>
+                        <li><a class="nav-link" href="destinations">Destinations</a></li>
+                        <li><a class="nav-link" href="contact">Contact Us</a></li>
                         @guest
+
                         <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
                         <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
                         @else

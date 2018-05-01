@@ -1,4 +1,6 @@
-@include('inc.header') 
+@extends('layouts.app')
+
+@section('content')
 
 @include('inc.title')
 
