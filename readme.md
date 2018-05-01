@@ -11,19 +11,19 @@
 ###### Your settings should be something similar to this:
 
 ````
-DB_CONNECTION=mysql <br />
-DB_HOST=127.0.0.1 <br />
-DB_PORT=8889 <br />
-DB_DATABASE=logindb<br />
-DB_USERNAME=root<br />
-DB_PASSWORD=root<br />
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=8889
+DB_DATABASE=logindb
+DB_USERNAME=root
+DB_PASSWORD=root
 ````
 
 
 #### Granting a new user <i>admin</i> privileges
 
 ````
-$ php artisan tinker<br />
-\>>> use App\User;<br />
+$ php artisan tinker
+\>>> use App\User;
 \>>>User::where('email', 'useremail@gmail.com')->update(['type' => 'admin']);
 ````
