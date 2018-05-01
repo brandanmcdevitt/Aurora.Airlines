@@ -27,3 +27,11 @@ $ php artisan tinker
 >>> use App\User;
 >>>User::where('email', 'useremail@gmail.com')->update(['type' => 'admin']);
 ````
+
+#### Revoking admin privileges from a user
+
+````
+$ php artisan tinker
+>>> use App\User;
+>>>User::where('email', 'useremail@gmail.com')->update(['type' => 'default']);
+````
