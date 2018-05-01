@@ -1,6 +1,21 @@
 
 {{-- Creating the footer.blade.php to allow us to include it to every page with a simple function. --}}
 
+<div class="g-translate">
+
+  <h2>Translate Our Site</h2>
+
+<div id="google_translate_element"></div>
+
+</div>
+
+<script type="text/javascript">
+function googleTranslateElementInit() {
+  new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
+}
+</script>
+
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 <div class="footer-info">
     <div class="copyright">
         Copyright &copy; {{ date('Y') }}

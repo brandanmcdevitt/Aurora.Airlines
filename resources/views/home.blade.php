@@ -1,4 +1,7 @@
-@extends('layouts.app') @section('content')
+@extends('layouts.app')
+
+@section('content')
+
 <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
@@ -10,7 +13,7 @@
                     <div class="alert alert-success">
                         {{ session('status') }}
                     </div>
-                    @endif You are logged in!
+                    @endif Welcome {{ Auth::user()->name }}
                 </div>
             </div>
         </div>

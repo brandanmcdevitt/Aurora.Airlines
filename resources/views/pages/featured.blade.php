@@ -1,7 +1,6 @@
 {{-- including the header.blade.php file --}}
 @extends('layouts.app')
 
-@section('content')
 {{-- including the title.blade.php file --}}
 @include('inc.title')
 
