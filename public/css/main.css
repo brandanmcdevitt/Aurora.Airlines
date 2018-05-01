@@ -23,6 +23,13 @@ html {
 Navigation
 **************/
 
+div#app {
+    position:  absolute;
+    top: 0;
+    left:  0;
+    right: 0;
+}
+
 .logo img {
     max-width: 100%;
 }

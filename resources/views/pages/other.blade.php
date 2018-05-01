@@ -1,10 +1,12 @@
-@include('inc.header')
+@extends('layouts.app')
+
+@section('content')
 
 @include('inc.title')
 
-{{-- 
+{{--
 
-we will be making dummy pages to link to all the quick-links (within the footer) so that all of our links work. 
+we will be making dummy pages to link to all the quick-links (within the footer) so that all of our links work.
 we are using Back to the Future lorem ipsum text to fill the pages in.
 
 --}}
