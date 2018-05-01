@@ -8,7 +8,6 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
 
     @extends('layouts.app')
 
-    @section('content')
 
     <div class="main-bg">
 

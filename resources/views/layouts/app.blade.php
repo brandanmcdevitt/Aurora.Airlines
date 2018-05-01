@@ -48,7 +48,6 @@
                         <li><a class="nav-link" href="destinations">Destinations</a></li>
                         <li><a class="nav-link" href="contact">Contact Us</a></li>
                         @guest
-
                         <li><a class="nav-link" href="{{ route('login') }}">{{ __('Login') }}</a></li>
                         <li><a class="nav-link" href="{{ route('register') }}">{{ __('Register') }}</a></li>
                         @else
