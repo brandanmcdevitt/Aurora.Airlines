@@ -75,9 +75,8 @@ Route::get('/deals', function () {
     return view('pages.other');
 });
 
-/*creating and testing the members only page */
-Route::get('/member', function () {
-    return view('pages.member-only');
+Route::get('/staff', function () {
+    return view('staff.staff');
 });
 
 Auth::routes();

@@ -338,10 +338,13 @@ Destinations
     padding: 10px 30px;
     color: #fff;
     font-size: 15px;
+    padding-top: 100px;
 }
 
 .page-title h1 {
     font-weight: 100;
+    max-width: 76%;
+    margin: 0 auto;
 }
 
 .destination-hero {
@@ -517,6 +520,64 @@ div#sidebar-main {
 #sidebar-main p {
     font-family: "Raleway";
     color: #333;
+}
+
+.admin-container {
+    width: 100%;
+    height:  480px;
+    padding-top:  84px;
+}
+
+.admin-welcome {
+    margin: 0 auto;
+    max-width: 50%;
+    padding-top: 30px;
+}
+
+.sidebar {
+    width: 20%;
+    float: left;
+    border: 1px solid #333;
+    background: #ccc;
+    padding: 30px 0 30px 50px;
+    text-transform: uppercase;
+    font-weight: bold;
+    clear: both;
+    height: 100%;
+}
+
+.sidebar li {
+    list-style: none;
+    margin: 10px 0;
+    border-bottom: 5px solid #333;
+    width: 50%;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 24px;
+}
+
+.sidebar a li {
+  border: none;
+}
+
+.graph {
+    width: 50%;
+    height: auto;
+    margin:  0 auto;
+}
+
+.graph img {
+    width: 80%;
+}
+
+.graph:after {
+    content: "Recent flights";
+    display: block;
+    width: 32%;
+    margin: 0 auto;
 }
 
 /***************

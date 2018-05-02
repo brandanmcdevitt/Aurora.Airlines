@@ -57,10 +57,25 @@
                                 </a>
 
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              {{--
+                                validating whether the logged in user is an admin or not to display
+                                the admin dashboard button on dropdown
+                                --}}
+                              @if (Auth::user()->type == 'admin')
+                              <a class="dropdown-item" href="admin">
+                                      Admin Dashboard
+                                  </a>
+
+                                  @else (Auth::user()->type == 'default')
+                                  <a class="dropdown-item" href="staff">
+                                          Staff Dashboard
+                                      </a>
+                                  @endif
                                 <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                                      document.getElementById('logout-form').submit();">
                                         {{ __('Logout') }}
                                     </a>
+
 
                                 <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
                                     @csrf

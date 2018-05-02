@@ -3,13 +3,13 @@
 <div class="admin-container">
 <div class="sidebar">
   <ul>
-  <li>Admin Panel</li>
+  <li>Staff Panel</li>
   <a href=""><li>Statistics</li></a>
   <a href=""><li>Staff</li></a>
   <a href=""><li>FLights</li></a>
   <a href=""><li>Messages</li></a>
-  <a href=""><li>five</li></a>
-  <a href=""><li>six</li></a>
+  <a href=""><li>Rota</li></a>
+  <a href=""><li>Contact Admin</li></a>
   </ul>
 
 </div>
@@ -20,8 +20,8 @@
 
 </div>
 
-<div class="graph">
-<img src="images/graph.png">
+<div class="staff-graph">
+<img src="images/logo.png">
 </div>
 
 </div>
