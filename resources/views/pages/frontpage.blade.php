@@ -8,6 +8,39 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
 
     @extends('layouts.app')
 
+{{-- we tried populating the dropdown box with a database but could not figure out how to do it --}}
+  <?php  $destinations = array('London',
+                                'Belfast',
+                               'Salzburg',
+                               'Vienna',
+                               'Berlin',
+                               'Munich',
+                               'Krakow',
+                               'Ibiza',
+                               'Majorca',
+                               'Menorca',
+                               'Palma',
+                                'Tenerife',
+                                'Las Palmas',
+                                'Jersey',
+                                'Prague',
+                                'Copenhagan',
+                                'Cannes',
+                                'Monaco',
+                                'Nice',
+                                'Paris',
+                                'Budapest',
+                                'Florence',
+                                'Lake Garda',
+                                'Naples',
+                                'Piza',
+                                'Rome',
+                                'Venice',
+                                'Geneva',
+                                'New York');
+
+  $count = 1
+  ?>
 
     <div class="main-bg">
 
@@ -25,13 +58,18 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
         <div class="hero-container">
             <form class="half-content">
                 <select id="departures">
-            <option value="select">Select</option>
-            <option value="departure Airport">Departure Airport</option>
+            <option value="select">Departure</option>
+            @foreach($destinations as $destination)
+                <option value="departure Airport">{{ $destination }}</option>
+            @endforeach
+
             </select>
 
                 <select id="arrivals">
-            <option value="select">Select</option>
-            <option value="Arrival Airport">Arrival Airport</option>
+            <option value="select">Arrival</option>
+            @foreach($destinations as $destination)
+                <option value="arrival Airport">{{ $destination }}</option>
+            @endforeach
             </select>
 
                 <input type="date" id="dates">
