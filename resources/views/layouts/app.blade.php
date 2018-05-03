@@ -67,8 +67,8 @@
                                   </a>
 
                                   @else (Auth::user()->type == 'default')
-                                  <a class="dropdown-item" href="staff">
-                                          Staff Dashboard
+                                  <a class="dropdown-item" href="customer">
+                                          Customer Dashboard
                                       </a>
                                   @endif
                                 <a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();

@@ -75,9 +75,22 @@ Route::get('/deals', function () {
     return view('pages.other');
 });
 
-Route::get('/staff', function () {
-    return view('staff.staff');
+Route::get('/customer', function () {
+    return view('customer.customer');
 });
+
+Route::get('/booking', function () {
+    return view('pages.booking');
+});
+
+Route::get('/booking', function () {
+    return 'Form was submitted';
+});
+
+Route::post('/booking', function () {
+    return view('pages.booking');
+});
+
 
 Auth::routes();
 
