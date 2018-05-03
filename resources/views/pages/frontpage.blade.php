@@ -38,8 +38,6 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
                                 'Venice',
                                 'Geneva',
                                 'New York');
-
-  $count = 1
   ?>
 
     <div class="main-bg">
@@ -56,26 +54,27 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
         --}}
 
         <div class="hero-container">
-            <form class="half-content">
-                <select id="departures">
+            <form class="half-content" action="booking" method="POST">
+              {{ csrf_field() }}
+                <select id="departures" name="departure">
             <option value="select">Departure</option>
             @foreach($destinations as $destination)
-                <option value="departure Airport">{{ $destination }}</option>
+                <option type="text">{{ $destination }}</option>
             @endforeach
 
             </select>
 
-                <select id="arrivals">
+                <select id="arrivals" name="arrival">
             <option value="select">Arrival</option>
             @foreach($destinations as $destination)
-                <option value="arrival Airport">{{ $destination }}</option>
+                <option type="text">{{ $destination }}</option>
             @endforeach
             </select>
 
-                <input type="date" id="dates">
+                <input type="date" id="dates" type="text" name="date">
             </select>
 
-                <button id="search">Find My Holiday</button>
+                <button href="booking" id="search">Find My Holiday</button>
             </form>
 
             <div class="main-bg-words half-content">

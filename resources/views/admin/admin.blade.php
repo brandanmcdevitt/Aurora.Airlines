@@ -8,8 +8,8 @@
   <a href=""><li>Staff</li></a>
   <a href=""><li>FLights</li></a>
   <a href=""><li>Messages</li></a>
-  <a href=""><li>five</li></a>
-  <a href=""><li>six</li></a>
+  <a href=""><li>Issues</li></a>
+  <a href=""><li>Database</li></a>
   </ul>
 
 </div>

@@ -79,6 +79,19 @@ Route::get('/staff', function () {
     return view('staff.staff');
 });
 
+Route::get('/booking', function () {
+    return view('pages.booking');
+});
+
+Route::get('/booking', function () {
+    return 'Form was submitted';
+});
+
+Route::post('/booking', function () {
+    return view('pages.booking');
+});
+
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

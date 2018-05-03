@@ -327,6 +327,33 @@ button#search {
     left: 170px;
 }
 
+.staff-graph {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/******
+booking
+******/
+
+.user-choice {
+    font-size: 20px;
+}
+
+.selection {
+    max-width: 73%;
+    margin: 50px auto;
+}
+
+.selection h1 {
+    border-bottom: 6px solid #009083;
+    max-width: 23%;
+}
+
+.user-choice span {
+    font-weight: bold;
+    color: #038f83;
+}
 /******************
 Destinations
 ******************/
