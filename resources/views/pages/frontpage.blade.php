@@ -8,7 +8,8 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
 
     @extends('layouts.app')
 
-{{-- we tried populating the dropdown box with a database but could not figure out how to do it --}}
+{{-- we tried populating the dropdown box with a database but could not figure out how to do it
+     so we used a hardcoded array instead for these details --}}
   <?php  $destinations = array('London',
                                 'Belfast',
                                'Salzburg',
@@ -37,13 +38,11 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
                                 'Rome',
                                 'Venice',
                                 'Geneva',
-                                'New York');
-  ?>
+                                'New York'); ?>
 
     <div class="main-bg">
 
         <img src="images/fp-bg.jpg">
-        {{-- testing --}}
         {{--
 
         Creating a form to hold the drop-down select boxes for the departure/arrival
@@ -73,7 +72,6 @@ The header.blade.php and footer.blade.php will be included in the top and bottom
 
                 <input type="date" id="dates" type="text" name="date">
             </select>
-
                 <button href="booking" id="search">Find My Holiday</button>
             </form>
 
@@ -222,15 +220,15 @@ are stored as an offer or not.
             <div class="social-icons">
 
                 <div class="si-item">
-                    <a href="#"><img src="/images/facebook.png"></a>
+                    <a href="http://facebook.com" target="_blank"><img src="/images/facebook.png"></a>
                 </div>
 
                 <div class="si-item">
-                    <a href="#"><img src="/images/twitter.png"></a>
+                    <a href="http://twitter.com" target="_blank"><img src="/images/twitter.png"></a>
                 </div>
 
                 <div class="si-item">
-                    <a href="#"><img src="/images/linkedin.png"></a>
+                    <a href="http://linkedin.com" target="_blank"><img src="/images/linkedin.png"></a>
                 </div>
 
             </div>

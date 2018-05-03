@@ -341,18 +341,22 @@ booking
 }
 
 .selection {
-    max-width: 73%;
     margin: 50px auto;
 }
 
 .selection h1 {
     border-bottom: 6px solid #009083;
-    max-width: 23%;
+    max-width: 31%;
 }
 
 .user-choice span {
     font-weight: bold;
     color: #038f83;
+}
+
+.selection-outer {
+    max-width: 73%;
+    margin: 0 auto;
 }
 /******************
 Destinations
@@ -587,7 +591,12 @@ div#sidebar-main {
 }
 
 .sidebar a li {
-  border: none;
+    border: none;
+    width: 100%;
+}
+
+.sidebar ul {
+  padding-left: 0;
 }
 
 .graph {

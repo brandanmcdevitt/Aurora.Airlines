@@ -3,12 +3,11 @@
 <div class="admin-container">
 <div class="sidebar">
   <ul>
-  <li>Staff Panel</li>
-  <a href=""><li>Statistics</li></a>
-  <a href=""><li>Staff</li></a>
-  <a href=""><li>FLights</li></a>
+  <li>Your Panel</li>
+  <a href=""><li>Your Flight</li></a>
+  <a href=""><li>Maps</li></a>
+  <a href=""><li>Tourist Info</li></a>
   <a href=""><li>Messages</li></a>
-  <a href=""><li>Rota</li></a>
   <a href=""><li>Contact Admin</li></a>
   </ul>
 

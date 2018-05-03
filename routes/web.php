@@ -75,8 +75,8 @@ Route::get('/deals', function () {
     return view('pages.other');
 });
 
-Route::get('/staff', function () {
-    return view('staff.staff');
+Route::get('/customer', function () {
+    return view('customer.customer');
 });
 
 Route::get('/booking', function () {

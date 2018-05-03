@@ -31,10 +31,12 @@
 
 </div>
 
+{{-- the section where the google map will appear --}}
 <div id="map">
 
   </div>
 
+{{-- the script for fetching the google map and display an area by co-ordinates --}}
 <script>
 function myMap() {
     var mapOptions = {
